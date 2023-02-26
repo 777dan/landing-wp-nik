@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.primary-menu-container {
+    background-color: #b29ec5 !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+#masthead {
+    max-width: 100%;
+    background-image: url(../img/img5.jpg);
+    /* background-position: center center; */
+    background-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.site-branding {
+    background-color: rgba(0, 0, 0, 0.254);
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+    box-shadow: -10px 10px 34px black;
+}
+
+.site-title {
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 10px 10px 50px black;
+}
+
+.site-description {
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 10px 10px 50px black;
+}
+
+.site-header>.site-logo {
+    border-bottom: 0;
+}
+
+.custom-logo {
+    border-radius: 10%;
+}
