@@ -13,13 +13,13 @@ html {
     background-image: url(../img/img5.jpg);
     /* background-position: center center; */
     background-size: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+	background-repeat: no-repeat;
 }
 
 .site-branding {
     background-color: rgba(0, 0, 0, 0.254);
-    margin-right: auto;
+/* 	max-width: 100%; */
+    margin-right: auto !important;
     margin-left: auto;
     width: 45%;
     box-shadow: -10px 10px 34px black;
@@ -29,7 +29,7 @@ html {
     color: #fff;
     font-family: monospace;
     font-weight: bold;
-    font-size: 60px;
+/*     font-size: 60px; */
     text-shadow: 10px 10px 50px black;
 }
 
@@ -37,7 +37,7 @@ html {
     color: #fff;
     font-family: monospace;
     font-weight: bold;
-    font-size: 40px;
+/*     font-size: 40px; */
     text-shadow: 10px 10px 50px black;
 }
 
